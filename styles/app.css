@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+/* background-color: #080710; */
+background-color: blue;
+font-family: 'Poppins', sans-serif;
+
+}
+.container { 
+    justify-content: center;
+    
+ width: 320px;
+ height: 360px;
+/* background-color: rgba(255, 255, 255,.07) ; */
+background-color: aliceblue;
+border: 1px solid black;
+border-radius: 10px;
+margin: 0 auto;
+position: relative;
+
+  }
+  @media all and (max-width:767px) {
+    .container{
+        margin-top: 230px;
+margin-right: 45px;
+    }
+  }
+  .box {
+ text-align: center;
+font-size: 32px;
+}
