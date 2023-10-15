@@ -9,8 +9,9 @@ body{   background-color: black;
 }
 @media all and (max-width:767px) {
  body{
-    background-color: #3E2723;
+    background-color: #212121;
  }
+}
 main{
     width: 100%;
     height: 100vh;
@@ -32,7 +33,7 @@ main{
 }
 @media all and (max-width:767px) {
     .circle{
-     top: 75%;
+     top: 72%;
     }
 }
 .circle2{
@@ -47,9 +48,10 @@ main{
 background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  
 background: linear-gradient(to right, #eaafc8, #654ea3); 
 }
+
 @media all and (max-width:767px) {
     .circle2{
-      left: 20%;
+      left: 16%;
     }
 }
 .container {
