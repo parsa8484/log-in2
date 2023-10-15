@@ -30,6 +30,11 @@ main{
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
     background: linear-gradient(to right, #f5af19, #f12711); 
 }
+@media all and (max-width:767px) {
+    .circle{
+     top: 75%;
+    }
+}
 .circle2{
     z-index: 1;
     width: 180px;
@@ -46,6 +51,7 @@ background: linear-gradient(to right, #eaafc8, #654ea3);
     .circle2{
       left: 20%;
     }
+}
 .container {
     z-index: 2;
    width: 300px;
