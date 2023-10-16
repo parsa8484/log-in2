@@ -38,7 +38,7 @@ main{
 }
 @media all and (max-width:767px) {
     .circle{
-     top: 74%;
+     top: 72%;
     }
 }
 .circle2{
@@ -79,6 +79,7 @@ form{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    backdrop-filter: blur(10px);
 }
 .userPass_parent{
     width: 80%;
@@ -100,7 +101,6 @@ form{
     width: 80%;
     display: flex;
     justify-content: center;
-    font-weight: 300;
 }
 .submit button{
     border-radius: 5px;
@@ -110,6 +110,7 @@ form{
     color: black;
     cursor: pointer;
     transition: all .1s ease-in-out;
+    font-weight: 600;
 }
 .submit button:hover{
     box-shadow: 1px 16px 16px rgba(135, 135, 135, 0.164);
