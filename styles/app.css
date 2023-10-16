@@ -7,11 +7,6 @@ body{   background-color: black;
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
-@media all and (max-width:767px) {
- body{
-    background-color: #212121;
- }
-}
 main{
     width: 100%;
     height: 100vh;
@@ -33,7 +28,7 @@ main{
 }
 @media all and (max-width:767px) {
     .circle{
-     top: 72%;
+     top: 74%;
     }
 }
 .circle2{
@@ -51,7 +46,7 @@ background: linear-gradient(to right, #eaafc8, #654ea3);
 
 @media all and (max-width:767px) {
     .circle2{
-      left: 14%;
+      left: 12%;
     }
 }
 .container {
@@ -59,7 +54,7 @@ background: linear-gradient(to right, #eaafc8, #654ea3);
    width: 300px;
    height: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.336);  
+    background-color: rgba(255, 255, 255, 0.13);  
   border-radius: 10px;
 }
 
@@ -87,13 +82,15 @@ form{
     width: 100%;
     height: 35px;
     border-radius: 5px;
-    background-color: #D7CCC8;
+    background-color: rgba(255, 255,255,0.07);
     padding-left: 5%;
+    font-weight: 300;
 }
 .submit{
     width: 80%;
     display: flex;
     justify-content: center;
+    font-weight: 300;
 }
 .submit button{
     border-radius: 5px;
