@@ -3,9 +3,19 @@
     padding: 0;
     border: none;
 }
-body{   background-color: black;
+body{  background-color: black;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+}
+@media all and (max-width:767px) {
+    body{
+       background-color: #212121;
+    }
+   }
+input, button{
+    font-family: inherit;
+    outline: none;
+    border: none;
 }
 main{
     width: 100%;
