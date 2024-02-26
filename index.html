@@ -23,6 +23,7 @@
                 <label for="username" ></label>
                  <h3><input  type="email" id="username" value="" placeholder="Email or Phone" required autofocus></h3>
             </div>
+            
              <div class="conteiner-password">
                 <h3 style="font-size: 16px; font-weight: normal; margin-bottom: 7px;">Password</h3>
                  <label for="password"></label>
@@ -30,13 +31,17 @@
               </div>
         </div>
             <div class="submit">
-                  <button type="submit" >
+                  <button type="submit" onclick="DataValidation()">
                     Log in
                   </button>
             </div>
                     
     </form>
 </div>
+
+            <div class="modal">
+                لطفا اطلاعات را به درستی وارد نمایید
+            </div>
     </main>
     <script src="script/script.js"></script>
 </body>
